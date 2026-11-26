@@ -1,6 +1,6 @@
 # Point-of-Sale System
 
-A CodeIgniter 4 Point-of-Sale application with staff authentication, product and customer management, image uploads, stock-safe sales recording, and sales history.
+A CodeIgniter 4 Point-of-Sale application with protected staff access, CRUD management, image uploads, and stock-safe sales recording.
 
 ## Developer
 
@@ -8,15 +8,14 @@ Shean Nicholo Q. Calantoc
 
 ## Requirements
 
-- PHP 8.2 or newer
+- PHP 8.2+
 - Composer
 - MySQL or MariaDB
-- PHP GD extension enabled for image resizing
+- PHP GD extension
 
-## Local Setup
+## Setup
 
-1. Clone or download this repository.
-2. Install dependencies:
+1. Run:
 
    ```bash
    composer install
